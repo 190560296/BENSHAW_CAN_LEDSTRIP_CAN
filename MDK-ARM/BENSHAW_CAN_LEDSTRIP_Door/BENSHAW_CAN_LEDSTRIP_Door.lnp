@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"benshaw_can_ledstrip_door\startup_stm32f103xe.o"
+"benshaw_can_ledstrip_door\main.o"
+"benshaw_can_ledstrip_door\stm32f1xx_it.o"
+"benshaw_can_ledstrip_door\stm32f1xx_hal_msp.o"
+"benshaw_can_ledstrip_door\can.o"
+"benshaw_can_ledstrip_door\timer.o"
+"benshaw_can_ledstrip_door\usart.o"
+"benshaw_can_ledstrip_door\ledstrip_rgbw.o"
+"benshaw_can_ledstrip_door\stm32f1xx_hal_gpio_ex.o"
+"benshaw_can_ledstrip_door\stm32f1xx_hal_can.o"
+"benshaw_can_ledstrip_door\stm32f1xx_hal_tim.o"
+"benshaw_can_ledstrip_door\stm32f1xx_hal_tim_ex.o"
+"benshaw_can_ledstrip_door\stm32f1xx_hal_uart.o"
+"benshaw_can_ledstrip_door\stm32f1xx_hal.o"
+"benshaw_can_ledstrip_door\stm32f1xx_hal_rcc.o"
+"benshaw_can_ledstrip_door\stm32f1xx_hal_rcc_ex.o"
+"benshaw_can_ledstrip_door\stm32f1xx_hal_gpio.o"
+"benshaw_can_ledstrip_door\stm32f1xx_hal_dma.o"
+"benshaw_can_ledstrip_door\stm32f1xx_hal_cortex.o"
+"benshaw_can_ledstrip_door\stm32f1xx_hal_pwr.o"
+"benshaw_can_ledstrip_door\stm32f1xx_hal_flash.o"
+"benshaw_can_ledstrip_door\stm32f1xx_hal_flash_ex.o"
+"benshaw_can_ledstrip_door\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "BENSHAW_CAN_LEDSTRIP_Door\BENSHAW_CAN_LEDSTRIP_Door.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "BENSHAW_CAN_LEDSTRIP_Door.map" -o BENSHAW_CAN_LEDSTRIP_Door\BENSHAW_CAN_LEDSTRIP_Door.axf
